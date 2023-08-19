@@ -3,10 +3,10 @@ document.addEventListener('DOMContentLoaded',()=>{
     const but=document.getElementById('check');
     but.addEventListener('click',function(){
         
-        if(note.innerHTML=="something"){
+        if(note.innerHTML=="မဂ်လာပါ"){
             note.innerHTML="hello";
         }else{
-            note.innerHTML="something";
+            note.innerHTML="မဂ်လာပါ";
         }
     });
     
