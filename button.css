@@ -12,8 +12,8 @@
 }
 .button{
      background-color: grey;
-     width: 200px;
-     height: 100px;
+     width: 40px;
+     height: 20px;
      border-radius:200px;
     cursor: pointer;
     position: relative;
@@ -25,8 +25,8 @@
     position: absolute;
     content: '';
     background-color:#fff ;
-    width: 90px;
-    height: 90px;
+    width: 10px;
+    height: 10px;
     border-radius: 200px;
     margin:5px;
     transition: 0.5s;
@@ -35,8 +35,8 @@ input:checked + .button{
     background: black;
     
 }
-input:checked + .button::before{
-    transform:translate(100px);
+input:checked +.button::before{
+    transform:translate(20px);
 }
 input{
     display: none;
